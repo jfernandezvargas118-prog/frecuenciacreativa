@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frecuencia Creativa</title>
+    <meta name="description"
+        content="Descubre el mundo a través de 6 preguntas. Series, escenas y comunidad de Frecuencia Creativa.">
+    <link rel="icon" type="image/png" href="img/logo para head.png">
+
+    <!-- Tipografías de la marca: Bebas Neue (títulos) + Montserrat (texto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js" defer></script>
+</head>
+
+<body>
+    <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+
+    <!-- ENCABEZADO / NAVEGACIÓN -->
+    <header class="site-header">
+        <nav class="nav" aria-label="Principal">
+            <a class="nav-logo" href="#inicio" aria-label="Frecuencia Creativa, ir al inicio">
+                <img src="img/Logo.png" alt="Frecuencia Creativa">
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal"
+                aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="menu-principal">
+                <li><a href="#series">Series</a></li>
+                <li><a href="#escenas">Escenas</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#participa">Participa</a></li>
+                <li><a href="#siguenos">Síguenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <h1>Descubre el mundo<br>a través de 6 preguntas</h1>
+                <p>Explora, aprende y descubre nuevas ideas.</p>
+                <a href="#series" class="btn btn-oro">Explorar series</a>
+            </div>
+        </section>
+
+        <!-- SERIES -->
+        <section class="seccion series" id="series">
+            <div class="seccion-encabezado">
+                <span class="etiqueta">LAS 6 PREGUNTAS</span>
+                <h2 class="seccion-titulo">Nuestras series</h2>
+            </div>
+
+            <div class="series-grid">
+                <a href="Temporada 1 - Porque.html" class="serie-card" aria-label="Temporada 1: ¿Por qué?">
+                    <div class="serie-flyer serie-flyer1"></div>
+                </a>
+
+                <a href="Temporada 2 - Quien.html" class="serie-card" aria-label="Temporada 2: ¿Quién?">
+                    <div class="serie-flyer serie-flyer2"></div>
+                </a>
+
+                <a href="Temporada 3 - Donde.html" class="serie-card" aria-label="Temporada 3: ¿Dónde?">
+                    <div class="serie-flyer serie-flyer3"></div>
+                </a>
+
+                <a href="Temporada 4 - Como.html" class="serie-card" aria-label="Temporada 4: ¿Cómo?">
+                    <div class="serie-flyer serie-flyer4"></div>
+                </a>
+
+                <a href="Temporada 5 - Cuando.html" class="serie-card serie-card--pronto"
+                    aria-label="Temporada 5: ¿Cuándo?, próximamente">
+                    <div class="serie-flyer serie-flyer5"></div>
+                </a>
+
+                <a href="Temporada 6 - Que.html" class="serie-card" aria-label="Temporada 6: ¿Qué?">
+                    <div class="serie-flyer serie-flyer6"></div>
+                </a>
+            </div>
+            </a>
+            </div>
+        </section>
+
+        <!-- ESCENAS (galería con desplazamiento automático, ver Index.js) -->
+        <section class="seccion escenas" id="escenas">
+            <div class="escenas-contenido">
+                <div class="seccion-encabezado">
+                    <h2 class="seccion-titulo">Escenas</h2>
+                    <p class="seccion-subtitulo">Detrás de cada historia...</p>
+                </div>
+
+                <div class="escenas-galeria" role="region" aria-label="Galería de escenas" tabindex="0">
+                    <img src="img/17.jpeg" alt="Escena 1" class="escenas-imagen" draggable="false">
+                    <img src="img/18.jpeg" alt="Escena 2" class="escenas-imagen" draggable="false">
+                    <img src="img/24.jpeg" alt="Escena 3" class="escenas-imagen" draggable="false">
+                    <img src="img/22.jpeg" alt="Escena 4" class="escenas-imagen" draggable="false">
+                    <img src="img/23.jpeg" alt="Escena 5" class="escenas-imagen" draggable="false">
+                </div>
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section class="seccion nosotros" id="nosotros">
+            <div class="seccion-encabezado">
+                <h2 class="seccion-titulo">Nosotros</h2>
+            </div>
+
+            <img src="img/4.jpeg" alt="Equipo de Punto Creativo" class="nosotros-equipo">
+
+            <p class="nosotros-texto">
+                Detrás de Punto Creativo hay un equipo de jóvenes creadores
+                que disfruta aprender, explorar y compartir ideas. Nuestro
+                propósito es desarrollar contenido que inspire, informe y
+                motive a otros a descubrir el valor de la creatividad y la
+                comunicación visual.
+            </p>
+
+            <div class="nosotros-grid">
+                <div class="nosotros-card">
+                    <img src="img/11.jpeg" alt="Jhon Sebastian Fernandez">
+                    <h3 class="nosotros-nombre">Jhon Sebastian Fernandez</h3>
+                    <a href="https://indd.adobe.com/view/ENLACE-PERFIL-1" class="btn btn-borde nosotros-perfil" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de Jhon Sebastian Fernandez">Ver perfil</a>
+                </div>
+
+                <div class="nosotros-card">
+                    <img src="img/10.jpeg" alt="Jeam Pierre Valencia">
+                    <h3 class="nosotros-nombre">Jeam Piere Valencia</h3>
+                    <a href="https://indd.adobe.com/view/ENLACE-PERFIL-2" class="btn btn-borde nosotros-perfil" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de Jeam Piere Valencia">Ver perfil</a>
+                </div>
+
+                <div class="nosotros-card">
+                    <img src="img/2.jpeg" alt="Paula Andrea Castañeda">
+                    <h3 class="nosotros-nombre">Paula Andrea Castañeda</h3>
+                    <a href="https://indd.adobe.com/view/ENLACE-PERFIL-3" class="btn btn-borde nosotros-perfil" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de Paula Andrea Castañeda">Ver perfil</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTICIPA / CONTACTO -->
+        <section class="seccion fc-participa" id="participa">
+            <div class="seccion-encabezado">
+                <h2 class="seccion-titulo">Participa</h2>
+                <p class="seccion-subtitulo">Sé parte de nuestra comunidad</p>
+            </div>
+
+            <div class="fc-contacto">
+                <div class="fc-contacto-panel">
+
+                    <!-- COLUMNA IZQUIERDA -->
+                    <div class="fc-contacto-info">
+
+                        <div class="fc-contacto-destellos" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <h3 class="fc-contacto-titulo">Contáctanos</h3>
+
+                        <p class="fc-contacto-etiqueta">
+                            ESCRÍBENOS, QUEREMOS<br>
+                            SABER DE TI
+                        </p>
+
+                        <div class="fc-contacto-linea"></div>
+
+                        <p class="fc-contacto-descripcion">
+                            ¿Tienes una idea, una propuesta o simplemente
+                            quieres ser parte de nuestra comunidad creativa?
+                            Déjanos tus datos y cuéntanos.
+                        </p>
+
+                        <!-- AVIÓN DE PAPEL -->
+                        <div class="fc-contacto-dibujo" aria-hidden="true">
+
+                            <svg class="fc-avion-papel" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 28 L91 5 L57 72 L43 44 Z" fill="none" stroke="currentColor" stroke-width="3"
+                                    stroke-linejoin="round" />
+                                <path d="M8 28 L43 44 L91 5" fill="none" stroke="currentColor" stroke-width="3"
+                                    stroke-linejoin="round" />
+                                <path d="M43 44 L40 59" fill="none" stroke="currentColor" stroke-width="3"
+                                    stroke-linecap="round" />
+                            </svg>
+
+                            <svg class="fc-trayectoria" viewBox="0 0 140 90" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M135 5 C100 20, 120 52, 75 48 S35 85, 5 70" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-dasharray="5 7" stroke-linecap="round" />
+                            </svg>
+
+                            <p class="fc-contacto-frase">
+                                ¡Tu historia<br>también cuenta!
+                            </p>
+                        </div>
+
+                        <!-- FORMAS DECORATIVAS -->
+                        <div class="fc-contacto-formas" aria-hidden="true">
+                            <span class="fc-forma-verde"></span>
+                            <span class="fc-forma-verde-claro"></span>
+                            <span class="fc-forma-curva"></span>
+                        </div>
+                    </div>
+
+                    <!-- COLUMNA DERECHA: FORMULARIO -->
+                    <div class="fc-contacto-formulario-panel">
+
+                        <form class="fc-contacto-formulario" action="#" method="post">
+
+                            <div class="fc-contacto-campo">
+                                <span class="fc-campo-icono" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24">
+                                        <circle cx="12" cy="8" r="4" />
+                                        <path d="M4 21v-2a8 8 0 0 1 16 0v2z" />
+                                    </svg>
+                                </span>
+                                <div class="fc-campo-contenido">
+                                    <label for="fc-contacto-nombre">Nombre <span>*</span></label>
+                                    <input type="text" id="fc-contacto-nombre" name="nombre" placeholder="Tu nombre"
+                                        autocomplete="name" required>
+                                </div>
+                            </div>
+
+                            <div class="fc-contacto-campo">
+                                <span class="fc-campo-icono" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24">
+                                        <circle cx="12" cy="8" r="4" />
+                                        <path d="M4 21v-2a8 8 0 0 1 16 0v2z" />
+                                    </svg>
+                                </span>
+                                <div class="fc-campo-contenido">
+                                    <label for="fc-contacto-genero">Género</label>
+                                    <select id="fc-contacto-genero" name="genero">
+                                        <option value="" selected disabled>Selecciona una opción</option>
+                                        <option value="femenino">Femenino</option>
+                                        <option value="masculino">Masculino</option>
+                                        <option value="otro">Otro</option>
+                                        <option value="no-responder">Prefiero no responder</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="fc-contacto-campo">
+                                <span class="fc-campo-icono" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24">
+                                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                                        <path d="m4 7 8 6 8-6" />
+                                    </svg>
+                                </span>
+                                <div class="fc-campo-contenido">
+                                    <label for="fc-contacto-email">Correo <span>*</span></label>
+                                    <input type="email" id="fc-contacto-email" name="correo"
+                                        placeholder="Tu correo electrónico" autocomplete="email" required>
+                                </div>
+                            </div>
+
+                            <div class="fc-contacto-campo">
+                                <span class="fc-campo-icono" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M12 22s8-7.5 8-13a8 8 0 0 0-16 0c0 5.5 8 13 8 13z" />
+                                        <circle cx="12" cy="9" r="2.5" />
+                                    </svg>
+                                </span>
+                                <div class="fc-campo-contenido">
+                                    <label for="fc-contacto-ciudad">De dónde vienes</label>
+                                    <input type="text" id="fc-contacto-ciudad" name="ciudad"
+                                        placeholder="Tu ciudad o país" autocomplete="country-name">
+                                </div>
+                            </div>
+
+                            <div class="fc-contacto-campo fc-contacto-campo-mensaje">
+                                <span class="fc-campo-icono" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7A8.4 8.4 0 0 1 4 11.5 8.5 8.5 0 0 1 8.7 3.9 8.4 8.4 0 0 1 12.5 3h.5a8.5 8.5 0 0 1 8 8z" />
+                                    </svg>
+                                </span>
+                                <div class="fc-campo-contenido">
+                                    <label for="fc-contacto-mensaje">Cuéntanos tu historia</label>
+                                    <textarea id="fc-contacto-mensaje" name="mensaje" placeholder="Escribe aquí..."
+                                        rows="4"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="fc-contacto-enviar">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M22 2 15 22l-4-9-9-4z" />
+                                    <path d="M22 2 11 13" />
+                                </svg>
+                                <span>Contáctanos</span>
+                                <span class="fc-contacto-flecha" aria-hidden="true">→</span>
+                            </button>
+                        </form>
+
+                        <!-- DETALLES DECORATIVOS -->
+                        <span class="fc-formulario-detalle fc-detalle-superior" aria-hidden="true"></span>
+                        <span class="fc-formulario-detalle fc-detalle-inferior" aria-hidden="true"></span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BARRA DEGRADADA + PIE DE PÁGINA -->
+    <div class="fc-barra-degradada" aria-hidden="true"></div>
+
+    <footer class="fc-footer">
+
+        <div class="fc-footer-cabecera">
+            <div class="fc-footer-logo">
+                <a href="#inicio" aria-label="Frecuencia Creativa, volver al inicio">
+                    <img src="img/Logo.png" alt="Frecuencia Creativa">
+                </a>
+            </div>
+            <h3>Recursos</h3>
+            <h3>Síguenos</h3>
+        </div>
+
+        <div class="fc-footer-contenido">
+
+            <div class="fc-footer-derechos">
+                <img src="img/LOGO COLECTIVO CIES.png" alt="Colectivo CIES" class="fc-footer-logo-cies">
+                <p>© 2026 WVISION. Todos los derechos reservados.</p>
+            </div>
+
+            <nav class="fc-footer-columna" aria-label="Recursos">
+                <a href="#series">Series</a>
+                <a href="#escenas">Escenas</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#participa">Participa</a>
+            </nav>
+
+            <div class="fc-footer-redes" id="siguenos">
+                <a href="https://youtube.com/@colectivocies-sena?si=HZvQBRKyOYq6EJSf" class="red-social youtube"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="img/YOUTUBE.png" alt="">
+                    <span>Youtube</span>
+                </a>
+
+                <a href="https://www.instagram.com/colectivocies?cplk=c2V0N3M0aDc2cG0x" class="red-social instagram"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="img/INSTAGRAM.png" alt="">
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://www.facebook.com/share/19cLg5ynLg/" class="red-social facebook" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="img/FACEBOOK.png" alt="">
+                    <span>Facebook</span>
+                </a>
+
+                <a href="https://www.tiktok.com/@colectivocies?_r=1&_t=ZS-9AaFgVs6hPB" class="red-social tiktok"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="img/TIK TOK.png" alt="">
+                    <span>Tiktok</span>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
